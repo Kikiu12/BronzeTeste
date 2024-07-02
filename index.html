@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Bronzeamento</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Agenda de Bronzeamento</h1>
+        <form id="scheduleForm">
+            <label for="date">Escolha o dia:</label>
+            <input type="date" id="date" name="date" required>
+            
+            <label for="time">Escolha o horário:</label>
+            <input type="time" id="time" name="time" required>
+            
+            <button type="submit">Agendar</button>
+        </form>
+        <div id="weather">
+            <h2>Previsão do Tempo</h2>
+            <p id="weather-info">Selecione uma data e um horário para ver a previsão do tempo.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
